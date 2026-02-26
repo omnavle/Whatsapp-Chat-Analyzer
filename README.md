@@ -1,88 +1,96 @@
 # 📊 WhatsApp Chat Analyzer Dashboard
 
-A Streamlit-based web application that analyzes exported WhatsApp chat files and provides detailed insights using Data Analytics and NLP techniques.
+A Streamlit-based web application that analyzes exported WhatsApp chat files and provides detailed insights using Data Analytics and Natural Language Processing (NLP) techniques.
+
+---
 
 ## 🚀 Features
 
-📌 Top Statistics
-- Total Messages
-- Total Words
-- Media Shared
-- Links Shared
+### 📌 Top Statistics
+- Total Messages  
+- Total Words  
+- Media Shared  
+- Links Shared  
 
-📅 Monthly Timeline
-- Month-wise message activity visualization
+### 📅 Monthly Timeline
+- Month-wise message activity visualization  
 
-📆 Daily Timeline
-- Day-wise message trend analysis
+### 📆 Daily Timeline
+- Day-wise message trend analysis  
 
-🗺️ Activity Map
-- Most active months
-- Most active days
+### 🗺️ Activity Map
+- Most active months  
+- Most active days  
 
-🔥 Weekly Activity Heatmap
-- Message intensity by day and time
+### 🔥 Weekly Activity Heatmap
+- Message intensity by day and time  
 
-👥 Most Busy Users
-- Identifies most active participants in group chats
+### 👥 Most Busy Users
+- Identifies most active participants in group chats  
 
-☁️ WordCloud
-- Visualization of most frequently used words
+### ☁️ WordCloud
+- Visualization of most frequently used words  
 
-📝 Most Common Words
-- Displays top repeated meaningful words after removing stopwords
+### 📝 Most Common Words
+- Displays top repeated meaningful words after removing stopwords  
+
+---
 
 ## 🛠️ Tech Stack
 
-Frontend & Backend: Streamlit  
-Programming Language: Python  
+**Frontend & Backend:** Streamlit  
+**Programming Language:** Python  
 
-Libraries Used:
-- pandas
-- matplotlib
-- seaborn
-- wordcloud
-- urlextract
-- emoji
-- numpy
+**Libraries Used:**
+- pandas  
+- matplotlib  
+- seaborn  
+- wordcloud  
+- urlextract  
+- emoji  
+- numpy  
 
-## 📂 Project Structure
+---
 
-Whatsapp-chat-analyzer/
-│
-├── app.py
-├── helper.py
-├── preprocessor.py
-├── stop_hinglish.txt
-├── requirements.txt
-└── README.md
 
 ## ⚙️ Installation & Run Locally
 
-1. Clone the repository
+### 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/whatsapp-chat-analyzer.git  
-cd whatsapp-chat-analyzer  
+```bash
+git clone https://github.com/your-username/whatsapp-chat-analyzer.git
+cd whatsapp-chat-analyzer
+```
 
-2. Install dependencies
+### 2️⃣ Install Dependencies
 
-pip install -r requirements.txt  
+```bash
+pip install -r requirements.txt
+```
 
-3. Run the application
+### 3️⃣ Run the Application
 
-streamlit run app.py  
+```bash
+streamlit run app.py
+```
+
+---
 
 ## 📥 How to Use
 
-1. Export WhatsApp chat as a .txt file  
+1. Export WhatsApp chat as a `.txt` file  
 2. Upload the chat file in the application  
 3. Select a user (for group chats)  
-4. Click Analyze Chat  
-5. View insights and visualizations  
+4. Click **Analyze Chat**  
+5. View detailed insights and visualizations  
+
+---
 
 
 ## 🎯 Project Purpose
 
-- Analyze chat behavior
-- Practice NLP concepts
-- Data visualization project
+- Analyze chat behavior  
+- Practice NLP concepts  
+- Data visualization portfolio project  
+- Real-world mini analytics dashboard  
+
